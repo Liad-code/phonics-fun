@@ -370,6 +370,157 @@
             0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
             100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
         }
+
+        /* ── Mobile adjustments ── */
+        @media (max-width: 560px) {
+            body {
+                padding: 10px 6px;
+            }
+
+            .header h1 {
+                font-size: 1.7rem;
+            }
+
+            .header .subtitle {
+                font-size: 0.95rem;
+            }
+
+            .score-bar {
+                gap: 12px;
+                padding: 8px 16px;
+            }
+
+            .score-bar span {
+                font-size: 0.95rem;
+            }
+
+            .stars {
+                font-size: 1.2rem;
+            }
+
+            .category-selector {
+                gap: 6px;
+                margin-bottom: 12px;
+            }
+
+            .cat-btn {
+                padding: 8px 14px;
+                font-size: 0.85rem;
+                border-width: 2px;
+            }
+
+            .worksheet {
+                padding: 14px 10px;
+                border-radius: 14px;
+                border-width: 3px;
+            }
+
+            .worksheet-title {
+                font-size: 1.3rem;
+                margin-bottom: 14px;
+            }
+
+            .word-row {
+                flex-direction: column;
+                gap: 8px;
+                padding: 12px 8px;
+                border-radius: 12px;
+                margin-bottom: 12px;
+            }
+
+            .picture-area {
+                width: 60px;
+                height: 70px;
+                border-radius: 10px;
+            }
+
+            .picture-area .emoji {
+                font-size: 2.2rem;
+            }
+
+            .picture-area .heb {
+                font-size: 0.75rem;
+            }
+
+            .audio-btn {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+
+            .letters-area {
+                width: 100%;
+            }
+
+            .word-display {
+                gap: 6px;
+                margin-bottom: 6px;
+            }
+
+            .word-slot {
+                width: 38px;
+                height: 42px;
+                font-size: 1.5rem;
+            }
+
+            .letter-grid {
+                gap: 8px;
+            }
+
+            .letter-bubble {
+                width: 48px;
+                height: 48px;
+                font-size: 1.3rem;
+                border-width: 2px;
+            }
+
+            .next-btn {
+                padding: 12px 32px;
+                font-size: 1.1rem;
+            }
+
+            .celebration-box {
+                padding: 28px 20px;
+                margin: 0 16px;
+                border-radius: 20px;
+            }
+
+            .celebration-box h2 {
+                font-size: 2rem;
+            }
+
+            .celebration-box .big-star {
+                font-size: 3rem;
+            }
+
+            .celebration-box p {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Extra small phones */
+        @media (max-width: 380px) {
+            .header h1 {
+                font-size: 1.4rem;
+            }
+
+            .cat-btn {
+                padding: 6px 10px;
+                font-size: 0.78rem;
+            }
+
+            .letter-bubble {
+                width: 42px;
+                height: 42px;
+                font-size: 1.15rem;
+            }
+
+            .word-slot {
+                width: 34px;
+                height: 38px;
+                font-size: 1.3rem;
+            }
+        }
     </style>
 </head>
 <body>
